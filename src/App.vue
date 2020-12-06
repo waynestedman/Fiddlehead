@@ -14,43 +14,42 @@
           transition="scale-transition"
           width="40"
         />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
       </div>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="mailto:someone@yoursite.com?subject=A Request from Our Visitor"
         target="_blank"
         text
       >
-        <span class="mr-2">Latest Release</span>
+        <span class="mr-2">Contact Us</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <HomeContent/>
     </v-main>
+    <v-footer
+     dark
+     padless
+    >
+      <Footer/>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import HomeContent from './components/HomeContent';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    HomeContent,
+    Footer,
   },
 
   data: () => ({
@@ -58,3 +57,9 @@ export default {
   }),
 };
 </script>
+
+<style lang="sass">
+  $color-pack: false
+
+  @import './src/styles/main.scss'
+</style>
