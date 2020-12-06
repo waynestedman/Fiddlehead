@@ -1,6 +1,6 @@
 <template>
   <v-container
-    class="flex deep-orange lighten-4"
+    class="flex"
     flat
     tile
   >

@@ -32,7 +32,7 @@
       <HomeContent/>
     </v-main>
     <v-footer
-     dark
+     color="deep-orange lighten-4"
      padless
     >
       <Footer/>
@@ -58,8 +58,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-  $color-pack: false
+/* <style lang="sass">
+//   $color-pack: false
 
-  @import './src/styles/main.scss'
-</style>
+//   @import './src/styles/main.scss'
+</style> */
