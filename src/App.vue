@@ -57,9 +57,3 @@ export default {
   }),
 };
 </script>
-
-/* <style lang="sass">
-//   $color-pack: false
-
-//   @import './src/styles/main.scss'
-</style> */
