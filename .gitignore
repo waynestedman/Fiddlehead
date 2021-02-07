@@ -90,4 +90,4 @@ sw.*
 *.swp
 
 # local project support files
-/_support-files
+# /_support-files
