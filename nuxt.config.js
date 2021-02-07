@@ -73,5 +73,6 @@ export default {
 
   server: {
     port: 80 // default: 3000
+    // target: 'static', // for Prod deployments
   }
 }

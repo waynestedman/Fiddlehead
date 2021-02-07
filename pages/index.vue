@@ -14,6 +14,14 @@
 
 export default {
   components: {
+  },
+  head () {
+    return {
+      title: 'Home'
+    }
   }
 }
 </script>
+
+<style lang="scss">
+</style>
