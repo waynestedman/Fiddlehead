@@ -18,3 +18,4 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+More information about the usage of Application Layouts in [the documentation](https://nuxtjs.org/guide/views#layouts).

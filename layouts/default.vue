@@ -23,8 +23,8 @@
         target="_blank"
         text
       >
-        <span class="mr-2">Contact Us</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <v-icon>mdi-mailbox-open</v-icon>
+        <span class="ml-2">Contact Us</span>
       </v-btn>
     </v-app-bar>
 

@@ -13,7 +13,7 @@
 
         <v-spacer />
 
-        <p>Made with Love</p>
+        <p>Made with <v-icon>mdi-heart</v-icon> in the Bay Area</p>
       </v-col>
     </v-row>
   </v-container>
