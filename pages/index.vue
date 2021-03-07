@@ -10,15 +10,18 @@
       </v-col>
     </v-row>
     <Intro />
+    <EarringTypes />
   </div>
 </template>
 
 <script>
 import Intro from '~/components/Intro.vue'
+import EarringTypes from '~/components/Earring-Types.vue'
 
 export default {
   components: {
-    Intro
+    Intro,
+    EarringTypes
   },
   head () {
     return {
