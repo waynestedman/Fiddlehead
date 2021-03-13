@@ -2,6 +2,7 @@
   <v-card
     elevation="2"
     outlined
+    class="intro-card"
   >
     <v-container>
       <v-row>
@@ -25,7 +26,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.intro-card {
+  margin-top: 2rem;
   .right {
     vertical-align: top;
   }
+}
 </style>
