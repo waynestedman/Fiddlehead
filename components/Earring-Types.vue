@@ -48,8 +48,13 @@
 </template>
 
 <script>
+  // import { gsap } from "gsap";
+  // import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 export default {
   name: 'EarringTypes',
+
+  // gsap.registerPlugin(ScrollTrigger);
 
   data: () => ({
     cards: [
