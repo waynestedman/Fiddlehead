@@ -8,7 +8,7 @@
       <v-row>
         <v-col>
           <div class="left">
-            <img src="https://via.placeholder.com/500x500">
+            <img src="fiddlehead-artwork.png">
           </div>
           <div class="right">
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat aspernatur odit incidunt blanditiis quae, nobis, a dolores, ducimus amet enim voluptatem id repudiandae itaque illum cupiditate. Debitis, hic consequuntur!</h3>
@@ -28,7 +28,16 @@ export default {
 <style lang="scss" scoped>
 .intro-card {
   margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .left {
+    img {
+      max-width: 500px;
+    }
+  }
   .right {
+    text-align: center;
+    padding-top: 2rem;
     vertical-align: top;
   }
 }
