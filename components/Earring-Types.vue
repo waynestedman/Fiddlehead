@@ -21,23 +21,21 @@
               class="white--text align-end"
               gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
               height="200px"
-            >
-              <v-card-title v-text="card.title" />
-            </v-img>
+            />
 
             <v-card-actions>
               <v-spacer />
 
-              <v-btn icon>
+              <!-- <v-btn icon>
                 <v-icon>mdi-heart</v-icon>
               </v-btn>
 
               <v-btn icon>
                 <v-icon>mdi-bookmark</v-icon>
-              </v-btn>
-
+              </v-btn> -->
+              <v-card-title v-text="card.title" />
               <v-btn icon>
-                <v-icon>mdi-share-variant</v-icon>
+                <v-icon>mdi-email-edit-outline</v-icon>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -58,7 +56,7 @@ export default {
 
   data: () => ({
     cards: [
-      { title: 'Boba Earrings', src: 'boba-mixed.jpg', flex: 2 },
+      { title: 'Mix-N-Match Earrings', src: 'boba-mixed.jpg', flex: 2 },
       { title: 'Beaded Earrings', src: 'colored-beads.jpg', flex: 2 },
       { title: 'Honeycomb Earrings', src: 'honeycomb.jpg', flex: 2 },
       { title: 'Gummy Bear Earrings', src: 'pink-bears.jpg', flex: 2 },

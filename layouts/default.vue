@@ -2,8 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
-      dark
+      color="secondary"
     >
       <div class="d-flex align-center">
         <v-img
@@ -15,6 +14,10 @@
           width="40"
         />
       </div>
+
+      <v-spacer />
+
+      <h2>Welcome to the Fiddlehead Plant</h2>
 
       <v-spacer />
 
@@ -34,7 +37,7 @@
       </v-container>
     </v-main>
     <v-footer
-      color="deep-orange lighten-4"
+      color="secondary darken-3"
       padless
     >
       <Footer />
@@ -55,3 +58,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+#app {
+  background: rgb(76,175,80);
+  background: linear-gradient(0deg, rgba(46,125,50,1) 0%, rgba(76,175,80,1) 55%, rgba(129,199,132,1) 100%);
+}
+</style>
