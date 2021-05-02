@@ -29,6 +29,7 @@ export default {
 .intro-card {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  background-color: #fcf8eb !important;
 
   .left {
     img {
@@ -39,6 +40,10 @@ export default {
     text-align: center;
     padding-top: 2rem;
     vertical-align: top;
+
+    h3 {
+      color: #333;
+    }
   }
 }
 </style>

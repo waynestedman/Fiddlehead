@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import Intro from '~/components/Intro.vue'
-import EarringTypes from '~/components/Earring-Types.vue'
+import Intro from '@/components/Intro.vue'
+import EarringTypes from '@/components/Earring-Types.vue'
 
 export default {
   components: {
@@ -30,6 +30,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-</style>

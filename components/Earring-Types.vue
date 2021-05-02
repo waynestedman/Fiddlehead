@@ -72,7 +72,7 @@ export default {
   margin: 2rem 0;
 
   .earring-card {
-    background-color: burlywood;
+    background-color: #FFE57F;
     // white-space: nowrap;
   }
 }

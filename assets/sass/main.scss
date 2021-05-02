@@ -1,12 +1,21 @@
 // Global variables (non-vuetify)
-$green-primary: #009245;
-$purple-lite: #8586A8;
-$purple-dark: #39375F;
 
 // Global styles
+h1, h2, h3, h4, h5, h6, p {
+  color: #333;
+}
+
+#app {
+  background: #BBDEFB;
+  // background: linear-gradient(0deg, rgba(46,125,50,1) 0%, rgba(76,175,80,1) 55%, rgba(129,199,132,1) 100%);
+
+  header, footer {
+    background-color: #FFE57F;
+  }
+}
+
 .headline {
-  background-color: lightgreen;
-  color: #444;
+  color: #fff;
 
   h2 {
     margin: 0 auto;

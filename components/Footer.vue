@@ -9,7 +9,7 @@
         class="py-2 black--text text-center"
         elevation="4"
       >
-        @{{ new Date().getFullYear() }} — <strong> The Fiddlehead Plant</strong>
+        <p>@{{ new Date().getFullYear() }} — <strong> The Fiddlehead Plant</strong></p>
 
         <v-spacer />
 
