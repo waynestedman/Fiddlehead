@@ -46,7 +46,7 @@
 </template>
 
 <script>
-// import { gsap } from "gsap";
+import gsap from 'gsap'
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default {
@@ -63,7 +63,20 @@ export default {
       { title: 'Zodiac Earrings', src: 'scorpio.jpg', flex: 2 },
       { title: 'Boba Earrings', src: 'brown-boba.jpg', flex: 2 }
     ]
-  })
+  }),
+  mounted () {
+    gsap.from('.earring-card', {
+      duration: 1.1,
+      opacity: 0,
+      scale: 0,
+      x: -100,
+      ease: 'power1.inOut',
+      stagger: {
+        each: 0.2,
+        from: 'start'
+      }
+    })
+  }
 }
 </script>
 

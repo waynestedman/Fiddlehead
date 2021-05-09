@@ -9,6 +9,7 @@
         <v-col>
           <div class="left">
             <img src="fiddlehead-artwork.png">
+            <h6>*original artwork by the Queen Fiddlehead</h6>
           </div>
           <div class="right">
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat aspernatur odit incidunt blanditiis quae, nobis, a dolores, ducimus amet enim voluptatem id repudiandae itaque illum cupiditate. Debitis, hic consequuntur!</h3>
@@ -34,6 +35,10 @@ export default {
   .left {
     img {
       max-width: 500px;
+    }
+    h6 {
+      text-align: right;
+      padding-right: 4rem;
     }
   }
   .right {
