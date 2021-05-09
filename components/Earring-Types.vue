@@ -66,13 +66,14 @@ export default {
   }),
   mounted () {
     gsap.from('.earring-card', {
-      duration: 1.1,
+      duration: 1.0,
       opacity: 0,
       scale: 0,
       x: -100,
-      ease: 'power1.inOut',
+      // ease: 'power1.inOut',
+      ease: 'sine.out',
       stagger: {
-        each: 0.2,
+        each: 0.18,
         from: 'start'
       }
     })

@@ -33,3 +33,9 @@ export default {
   })
 }
 </script>
+
+<style lang="scss" scoped>
+  .theme--light.v-icon {
+    color: #009245;
+  }
+</style>

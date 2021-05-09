@@ -2,10 +2,10 @@
   <v-app-bar app>
     <div class="d-flex align-center">
       <v-img
-        alt="Vuetify Logo"
+        alt="Fiddlehead Plant Logo"
         class="shrink mr-2"
         contain
-        src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+        src="fiddlehead-icon.svg"
         transition="scale-transition"
         width="40"
       />
@@ -32,3 +32,9 @@
 <script>
 export default {}
 </script>
+
+<style lang="scss" scoped>
+  .theme--light.v-icon {
+    color: #009245;
+  }
+</style>
